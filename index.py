@@ -9,7 +9,7 @@ import numpy as np
 
 style.use("ggplot")
 
-dirs = ['biorxiv_medrxiv']
+dirs = ['biorxiv_medrxiv', 'comm_use_subset', 'noncomm_use_subset', 'pmc_custom_license']
 docs = []
 for d in dirs:
     for file in tqdm(os.listdir(f"{d}/{d}")):
